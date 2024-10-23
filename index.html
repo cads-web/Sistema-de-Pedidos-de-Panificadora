@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistema de Pedidos de Panificadora</title>
+</head>
+<body>
+    <h1>Sistema de Pedidos de Panificadora</h1>
+    <input type="text" id="nomeCliente" placeholder="Nome do Cliente">
+    <div id="produtos">
+        <h2>Selecione os Produtos</h2>
+        <label><input type="checkbox" value="Pão - R$ 5,00"> Pão - R$ 5,00</label>
+        <label><input type="checkbox" value="Bolo - R$ 25,00"> Bolo - R$ 25,00</label>
+        <label><input type="checkbox" value="Biscoito - R$ 10,00"> Biscoito - R$ 10,00</label>
+        <label><input type="checkbox" value="Croissant - R$ 7,00"> Croissant - R$ 7,00</label>
+        <label><input type="checkbox" value="Tortinha - R$ 12,00"> Tortinha - R$ 12,00</label>
+    </div>
+    <button id="registrarPedido">Registrar Pedido</button>
+    <div id="resultado"></div>
+
+    <h3>Calcular Troco</h3>
+    <input type="number" id="valorRecebido" placeholder="Valor Recebido">
+    <button id="calcularTroco">Calcular Troco</button>
+    <div id="trocoResultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<! 
+ O que faz cada linha:
+- Cria a estrutura básica do documento HTML.
+- Inclui o arquivo CSS para estilização.
+- Define um campo para o nome do cliente e uma lista de produtos com checkbox.
+- Adiciona um botão para registrar o pedido.
+- Define áreas para exibir o resultado do pedido e para calcular o troco.
+- Inclui o arquivo JavaScript para lógica.
+>
+
